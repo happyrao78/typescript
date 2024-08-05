@@ -1,3 +1,4 @@
+//"type" keyword is used for using this objeect entirely anywhere in the development by multiple developers
 type shoppingList={
     readonly amount:number;//cant be changed
     items:string;
@@ -30,6 +31,7 @@ const details:carddetails={
     holderName:"happy yadav",
     cvv:2567
 }
+// for in loop is used for iterating through objects
 for (const key in details) {
     console.table(`${key}: ${details[key]}`)
     

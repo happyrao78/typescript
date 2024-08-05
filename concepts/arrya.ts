@@ -20,7 +20,7 @@ const MLModels: number[][]=[
 function arryaReadOnly(values: readonly string[]){
 console.log(`${values[0]}`)
     
-        // values.push("hey")
+        // values.push("hey")--> cant  be used in this because the array is in read only mode
 }
 arryaReadOnly(["happy","hishita"]);
 
