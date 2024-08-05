@@ -21,7 +21,7 @@ login={
     userName:"happy_yadav",
     id:5
 }
-
+// different data types for function arguments
 const funcTest = (name: string | number) =>{
     console.log(`Name is : ${name}`)
 
@@ -30,7 +30,7 @@ const funcTest = (name: string | number) =>{
 funcTest(45);
 funcTest("Happy yadav");
 
-// using union in fucntion
+// using union in arrow fucntion
 const funcTest_another = (id :string | number) =>{
     if(typeof id === "string"){
         id.toUpperCase();
@@ -52,7 +52,7 @@ id=[1,2,3,4,5];//all numbers
 let id_two : (string |  number | boolean)[]=["happy",8585,true];
 
 
-//fixxed values which can not be changed:
+//fixxed values which can not be changed or altered :
 
 let seatAllotment :"aisle" | "window" | "middle";
 seatAllotment="window"
