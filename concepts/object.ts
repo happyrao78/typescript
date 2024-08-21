@@ -16,7 +16,7 @@ let courseInfo={
     email:"happpy_yadav@hunar.ai"
 }
 
-course(courseInfo)
+course(courseInfo)//passed the object to a function as an argument
 
 //function returning a object
 

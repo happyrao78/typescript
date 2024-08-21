@@ -13,7 +13,7 @@ interface User {
 }
 //inheritance
 interface user_two extends User{
-  role ?: "sde1" | "sde2" | "sde3"
+  role ?: "sde1" | "sde2" | "sde3"//optional 
 }
 const happy  :user_two= {
     dbid:456,

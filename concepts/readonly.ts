@@ -1,4 +1,4 @@
-//"type" keyword is used for using this objeect entirely anywhere in the development by multiple developers
+//"type" keyword is used for using this object entirely anywhere in the development by multiple developers
 type shoppingList={
     readonly amount:number;//cant be changed
     items:string;

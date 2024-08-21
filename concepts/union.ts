@@ -17,7 +17,7 @@ let login : admin | user ={
     id:5
 }
 
-login={
+login={// same just only tried for declaring again for the username
     userName:"happy_yadav",
     id:5
 }
